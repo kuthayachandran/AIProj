@@ -1,22 +1,3 @@
-### OpenCV: Open Source Computer Vision Library
-
-[![Gittip](http://img.shields.io/gittip/OpenCV.png)](https://www.gittip.com/OpenCV/)
-
-#### Resources
-
-* Homepage: <http://opencv.org>
-* Docs: <http://docs.opencv.org/master/>
-* Q&A forum: <http://answers.opencv.org>
-* Issue tracking: <https://github.com/Itseez/opencv/issues>
-
-#### Contributing
-
-Please read before starting work on a pull request: <https://github.com/Itseez/opencv/wiki/How_to_contribute>
-
-Summary of guidelines:
-
-* One pull request per issue;
-* Choose the right base branch;
-* Include tests and documentation;
-* Clean up "oops" commits before submitting;
-* Follow the coding style guide.
+To run Face Detection application, have OpenCV setup on Ubuntu 18.04 version. Then, download zip file, open terminal within the folder and run the line 'python detect_faces_video.py --prototxt deploy.prototxt.txt  --model res10_300x300_ssd_iter_140000.caffemodel'
+Frame will open up, accessing your webcam and running the detection algorithm. Notice that the application will form a rectangular red box around a human face. It will not detect anything other than a face.
+This application comes with built-in libraries that OpenCV offers.
